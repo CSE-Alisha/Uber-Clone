@@ -70,8 +70,8 @@ const Login = ({ toggleModal }) => {
   return (
     <div className="login__container">
       <div className="login__welcome">
-        <p style={{ color: "#2c3e50", fontWeight: "bold" }}>
-          Build <span style={{ color: "#D7DF22" }}>Ola Clone</span> with React
+        <p style={{ color: "white", fontWeight: "bold" }}>
+          Create Your Journey With <span style={{ color: "#fff", fontSize: '80px' }}>Ride Share</span>
         </p>
       </div>
       <div className="login__form-container">

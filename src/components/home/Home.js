@@ -116,8 +116,13 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div id="map" style={style} />
-      {renderSidebar()}
+      <div style={{display: 'flex'}}>
+        <div style={{ width: '60vw', height: '100vh' }}>
+          <div id="map" style={style} />
+        </div>
+
+        {renderSidebar()}
+      </div>
     </>
   );
 };

@@ -1,6 +1,6 @@
-# How to Build a Rideshare Site with React.JS (Ola Clone)
+# How to Build a Rideshare Site with React.JS (Ride Share)
 
-Read the full tutorial here: [**>> How to Build a Rideshare Site with React.JS (Ola Clone)**](https://www.cometchat.com/tutorials/#)
+Read the full tutorial here: [**>> How to Build a Rideshare Site with React.JS (Ride Share)**](https://www.cometchat.com/tutorials/#)
 
 ## Technology
 

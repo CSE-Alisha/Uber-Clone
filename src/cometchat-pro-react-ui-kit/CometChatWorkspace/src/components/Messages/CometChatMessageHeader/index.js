@@ -282,9 +282,10 @@ class CometChatMessageHeader extends React.Component {
 		}
 	};
 
-	resetChat = () => {
-		this.context.setItem({});
-		this.props.actionGenerated(enums.ACTIONS["TOGGLE_SIDEBAR"]);
+	resetChat = async () => {
+		await this.props.actionGenerated(enums.ACTIONS["TOGGLE_SIDEBAR"]);
+		// this.context.setItem({});
+		console.log(typeof this.props.actionGenerated);
 	};
 
 	/**
